@@ -1,6 +1,11 @@
 export default function HowItWorksSection() {
   return (
-    <section className="py-28 bg-zinc-950 border-y border-white/10">
+    <section className="
+      py-28
+      bg-muted/40
+      dark:bg-zinc-950
+      border-y border-border
+    ">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center">How It Works</h2>
 
@@ -17,7 +22,7 @@ export default function HowItWorksSection() {
 function Step({ number, title }: { number: string; title: string }) {
   return (
     <div className="text-center">
-      <div className="text-5xl font-bold text-indigo-400">{number}</div>
+      <div className="text-5xl font-bold text-indigo-500">{number}</div>
       <h3 className="mt-4 text-xl font-semibold">{title}</h3>
     </div>
   )

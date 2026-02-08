@@ -8,7 +8,7 @@ export default function FinalCTASection() {
       <div className="max-w-3xl mx-auto px-6">
         <h2 className="text-5xl font-bold">Ready to Secure Your App?</h2>
 
-        <p className="mt-6 text-zinc-400">
+        <p className="mt-6 text-muted-foreground">
           Start building with next-gen authentication today.
         </p>
 

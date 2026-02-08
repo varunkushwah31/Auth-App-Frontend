@@ -1,8 +1,11 @@
-import React from 'react'
+
+import FuturisticSignup from '../components/Signup/FuturisticSignup'
 
 const Signup = () => {
   return (
-    <div>Signup</div>
+    <div>
+      <FuturisticSignup />
+    </div>
   )
 }
 

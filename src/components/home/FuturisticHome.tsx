@@ -7,7 +7,12 @@ import Footer from "./Footer"
 
 export default function FuturisticHome() {
   return (
-    <div className="min-h-screen bg-linear-to-b from-black via-zinc-900 to-black text-white">
+    <div className="
+      min-h-screen
+      bg-background
+      text-foreground
+      transition-colors duration-300
+    ">
       <HeroSection />
       <StatsSection />
       <FeaturesSection />

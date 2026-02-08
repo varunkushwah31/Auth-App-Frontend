@@ -15,7 +15,7 @@ export default function FeaturesSection() {
           Powerful Authentication Features
         </h2>
 
-        <p className="text-zinc-400 text-center mt-4 max-w-xl mx-auto">
+        <p className="text-muted-foreground text-center mt-4 max-w-xl mx-auto">
           Everything you need to protect users without sacrificing UX.
         </p>
 
@@ -40,11 +40,16 @@ function Feature({
   title: string
 }) {
   return (
-    <Card className="bg-zinc-900 border-white/10">
+    <Card className="
+      transition
+      hover:shadow-lg
+      hover:shadow-indigo-500/10
+      dark:hover:shadow-indigo-500/20
+    ">
       <CardContent className="p-6">
-        <div className="mb-4 text-indigo-400">{icon}</div>
+        <div className="mb-4 text-indigo-500">{icon}</div>
         <h3 className="text-xl font-semibold">{title}</h3>
-        <p className="mt-2 text-zinc-400">
+        <p className="mt-2 text-muted-foreground">
           Secure, scalable, and developer-friendly authentication.
         </p>
       </CardContent>
