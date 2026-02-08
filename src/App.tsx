@@ -1,16 +1,11 @@
 
-import './App.css'
-import { Button } from './components/ui/button'
+import FuturisticHome from './components/home/FuturisticHome'
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <div className='p-10'>
-        <h1 className='text-3xl font-bold'>Welcome to AuthApp</h1>
-        <Button variant='destructive'>Primary Button</Button>
-      </div>
-    </>
+    <div>
+      <FuturisticHome />
+    </div>
   )
 }
 
