@@ -13,7 +13,7 @@ export default function FinalCTASection() {
         </p>
 
         <NavLink to="/signup">
-          <Button size="lg" className="mt-10 gap-2">
+          <Button size="lg" className="mt-10 gap-2 hover:from-violet-300 hover:to-violet-500 cursor-pointer">
             Create Free Account <ArrowRight size={18} />
           </Button>
         </NavLink>

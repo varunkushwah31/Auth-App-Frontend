@@ -40,11 +40,11 @@ export default function HeroSection() {
         </p>
 
         <div className="mt-10 flex justify-center gap-4">
-          <Button size="lg" className="gap-2">
+          <Button size="lg" className="gap-2 cursor-pointer">
             Get Started <ArrowRight size={18} />
           </Button>
 
-          <Button size="lg" variant="outline">
+          <Button size="lg" variant="outline" className="cursor-pointer">
             View Docs
           </Button>
         </div>
