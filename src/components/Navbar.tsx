@@ -31,7 +31,7 @@ const Navbar = () => {
     <nav className="py-5 border-gray-700 border-b-2 md:py-0 flex md:flex-row gap-4 md:gap-0 h-14 justify-around items-center">
         {/* brand */}
         <div className='font-semibold items-center flex gap-2'>
-            <span className='inline-flex text-center h-6 w-6 bg-linear-to-r from-primary to-primary/40 rounded-md'>{"A"}</span>
+            <span className='inline-flex text-center h-6 w-6 bg-linear-to-r from-primary to-primary/40 rounded-md pl-1.5'>{"A"}</span>
             <span className="text-base tracking-tight">Auth App</span>
         </div>
 
