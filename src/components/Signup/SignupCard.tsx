@@ -4,6 +4,7 @@ import SignupForm from "./SignupForm"
 import AuthDivider from "./AuthDivider"
 import SocialSignupButtons from "./SocialSignupButtons"
 
+
 export default function SignupCard() {
   return (
     <Card className="relative w-full max-w-md bg-card border-border backdrop-blur">
